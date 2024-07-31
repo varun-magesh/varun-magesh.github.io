@@ -1,8 +1,17 @@
 AUTHOR = 'Varun Magesh'
-SITENAME = 'Varun'
+SITENAME = 'Varun Magesh'
 SITEURL = "http://127.0.0.1:8000"
 STATIC_PATHS = ['./images', './themes/simple/static', './static']
-
+MENUITEMS = (
+    ('Kitchen', '/category/kitchen.html'),
+    ('Research', '/pages/research.html'),
+    ('GitHub', 'https://github.com/varun-magesh'),
+    ('LinkedIn', 'https://www.linkedin.com/in/varun-magesh/'),
+)
+CATEGORY_TITLES = {
+    'kitchen': 'Notes from the Kitchen',
+    'research': 'Research',
+}
 PATH = "content"
 
 TIMEZONE = 'America/Los_Angeles'
