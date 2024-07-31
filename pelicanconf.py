@@ -4,7 +4,7 @@ SITEURL = "http://127.0.0.1:8000"
 STATIC_PATHS = ['./images', './themes/simple/static', './static']
 MENUITEMS = (
     ('Kitchen', '/category/kitchen.html'),
-    ('Research', '/pages/research.html'),
+    # ('Research', '/pages/research.html'),
     ('GitHub', 'https://github.com/varun-magesh'),
     ('LinkedIn', 'https://www.linkedin.com/in/varun-magesh/'),
 )
