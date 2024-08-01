@@ -88,14 +88,14 @@ h1 {
   font-family: 'Hedvig Letters Serif', serif;
 }
 
-/* no color on links, just underilne */
+/* forest green color for links */
 a {
-  color: inherit;
-  text-decoration: underline;
+  color: #598049;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #444444;
+  color: #598049;
 }
 
 /* light tan color on hover and active */
@@ -110,6 +110,8 @@ a:active {
 /* for links in headers, don't underline, and have a link symbol */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
+  /* normal body text color */
+  color: #3d1c00;
 }
 
 /* center h1 */
@@ -126,11 +128,11 @@ img {
 }
 
 /* body should be  6 inches wide at most, and centered */
-@media (min-width: 48em) {
-  body {
-	max-width: 6in;
-	margin: 0 auto;
-  }
+body {
+  max-width: 5.5in;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
 }
 
 /* style nav at top of page, following
@@ -144,12 +146,8 @@ nav {
   font-size: 1rem;
 }
 
-a {
-  text-decoration: none;
-  text-size: 1.25rem;
-}
-
 li a {
+  text-decoration: none;
   color: #777777;
 }
 
