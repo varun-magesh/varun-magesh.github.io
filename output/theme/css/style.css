@@ -1,0 +1,241 @@
+/* libre-caslon-text-latin-400-normal */
+@font-face {
+  font-family: 'Libre Caslon Text';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-text@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-text@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* libre-caslon-text-latin-700-normal */
+@font-face {
+  font-family: 'Libre Caslon Text';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-text@latest/latin-700-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-text@latest/latin-700-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+
+/* hedvig-letters-serif-latin-400-normal */
+@font-face {
+  font-family: 'Hedvig Letters Serif';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/hedvig-letters-serif@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/hedvig-letters-serif@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* libre-caslon-condensed-latin-400-normal */
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-400-normal.woff) format('woff');
+}
+
+/* libre-caslon-condensed-latin-500-normal */
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-500-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-500-normal.woff) format('woff');
+}
+
+/* libre-caslon-condensed-latin-600-normal */
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-600-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-600-normal.woff) format('woff');
+}
+
+/* libre-caslon-condensed-latin-700-normal */
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-700-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-700-normal.woff) format('woff');
+}
+
+body {
+  font-family: 'Hedvig Letters Serif', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #3d1c00;
+  background-color: #f9f6f2;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.list-article {
+  flex-direction: column;
+  display: flex;
+}
+
+/* title and date should be side by side */
+.list-article-entry {
+  display: flex;
+}
+
+.list-date {
+  font-size: 0.8rem;
+  color: #777777;
+  text-align: right;
+  align-self: center;
+  flex: 10%;
+}
+
+/* This ensures all date spans have the same width */
+.list-article-entry::before {
+    content: '';
+    display: block;
+    width: 0;
+}
+
+.list-article-entry::before,
+.date {
+    flex: 0 0 auto;
+}
+
+
+.list-title {
+  font-size: 1.1rem;
+  color: #3d1c00;
+  padding-left: 1rem;
+  margin: 0.2rem 0;
+  flex-grow: 1;
+  flex: 90%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* light fraunces weight */
+  font-family: 'Hedvig Letters Serif', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #3d1c00;
+}
+
+h1 {
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+/* forest green color for links */
+a {
+  color: #598049;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #598049;
+}
+
+/* light tan color on hover and active */
+a:hover {
+  color: #a57900;
+}
+
+a:active {
+  color: #b58900;
+}
+
+/* for links in headers, don't underline, and have a link symbol */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+  /* normal body text color */
+  color: #3d1c00;
+}
+
+/* center h1 */
+
+h1, h2 {
+  text-align: center;
+}
+
+/* center images and add a border */
+img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3d1c00;
+  width: 100%;
+}
+
+/* body should be  6 inches wide at most, and centered */
+body {
+  max-width: 5.5in;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+}
+
+/* style nav at top of page, following
+*/
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  decoration: none;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+#home {
+  /* color: #598049;*/
+  /* bold weight */
+  font-weight: 700;
+}
+
+li a {
+  text-decoration: none;
+  color: #777777;
+}
+
+li a:visited {
+  color: #777777;
+}
+
+nav a:hover {
+  color: #444444;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* light, slightly not as wide hr
+ */
+hr {
+  border-color: #aaaaaa;
+  width: 80%;
+  margin: 1rem auto;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
