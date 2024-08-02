@@ -1,5 +1,9 @@
-Title: Panzanella, confit white beans, and cucumber salad
+Title: Panzanella, confit beans, & cucumber salad
 Date: 2024-07-25
 Category: Kitchen
 
-I'm particularly fond of these three.
+![panzanella]({static}/images/panzanella.png)
+
+![confit white beans]({static}/images/whitebean-confit.png)
+
+![focaccia]({static}/images/focaccia.png)

@@ -9,11 +9,15 @@
 <div class="list-article">
 {% for article in articles %}
 {% if article.category == category %}
-	<!-- abbreviate the date to, e.g. Jul '24 -->
-	<div class="list-article-entry">
-		<div class="list-date">{{ article.date.strftime('%b ‘%y') }}</div>
-		<div class="list-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></div>
-	</div>
+  <!-- only print date if last article was in a different month -->
+  <div class="list-article-entry">
+  {% if loop.index == 1 or article.date.strftime('%b') != articles[loop.index - 2].date.strftime('%b') %}
+    <div class="list-date">{{ article.date.strftime('%b ‘%y') }}</div>
+  {% else %}
+    <div class="list-date"></div>
+  {% endif %}
+    <div class="list-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></div>
+  </div>
 {% endif %}
 {% endfor %}
 </div>
