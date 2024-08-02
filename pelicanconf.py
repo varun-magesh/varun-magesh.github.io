@@ -1,6 +1,7 @@
 AUTHOR = 'Varun Magesh'
 SITENAME = 'Varun Magesh'
-SITEURL = "http://localhost:8000"
+# SITEURL = "http://localhost:8000"
+SITEURL = "https://varun-magesh.github.io"
 STATIC_PATHS = ['./images', './themes/simple/static', './static']
 MENUITEMS = (
     ('Kitchen', '/category/kitchen.html'),
