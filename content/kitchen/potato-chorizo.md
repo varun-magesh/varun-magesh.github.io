@@ -9,9 +9,10 @@ pieces left over apart from the big strips.
 I cut the potatoes relatively small and seasoned with lots of oil and seasoned
 them slightly in the indian way, with turmeric, cumin, and kashmiri chili. I
 seasoned the soy curls more like a smoky chorizo, with smoked paprika, a bit of
-soy sauce, garlic, chili, chopped jalapenos, and lots of oil. I did the sautée
-& braise technique for the curls while air frying the potatoes, and then mixed
-the two together in the end.
+soy sauce, garlic, chili, chopped jalapenos, and lots of oil. I cheated with
+the chili powder and smoked paprika; if I had more time, it would be whole
+arbol and guajillos. I did the sautée & braise technique for the curls while
+air frying the potatoes, and then mixed the two together in the end.
 
 I made the tortillas with the standard instructions on the package. One
 important lesson is that the final warming step really matters; it's the slight
