@@ -12,7 +12,7 @@ A soy curl is a little strip of dehydrated soybean. They're sold by [Butler food
 
 Primarily, they're a great blank slate with an excellent texture for many kinds of things. They're cheap when bought in bulk, shelf stable, and pretty healthy.
 
-## How to cook a soy curl
+### How to cook a soy curl
 
 1. Fill a bowl halfway with curls
 2. Pour water over the curls, totally submerging them. Let sit for ten minutes.
