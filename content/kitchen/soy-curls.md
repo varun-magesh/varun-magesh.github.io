@@ -4,6 +4,8 @@ Category: Kitchen
 
 I love soy curls, and not many people know what they are. Available sources do not capture my thoughts, and some (including the official docs from Butler foods) kind of set you up for mediocre soy curls, hence this brief treatise.
 
+![soy curls]({static}/images/soycurls.png)
+
 ### What is a soy curl
 
 A soy curl is a little strip of dehydrated soybean. They're sold by [Butler foods](https://www.butlerfoods.com/soy-curls.html). Soy curls can be rehydrated to make a nice strip of protein. They are chewier than tofu but lighter and less dense than chicken. They have a relatively neutral flavor and absorb seasoning really well since they're textured and rather porous.
