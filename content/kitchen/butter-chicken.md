@@ -80,6 +80,23 @@ Getting the sugar ratio perfect is the key difficulty of some of the process. Yo
 ### Peas & Kale
 I would use a bit of finely chopped dino kale or frozen peas. I think this is a bit sacreligious to some, but I like the little bits of sweetness or varied texture and it goes with the sauce and chicken.
 
+## Approximate Quantities
+
+To serve 4 just about a meal's worth, or 3 generously. This just gives you like order of magnitude approximations, much more must be done by taste
+
+* 1 16 fl. oz. can tomatoes
+* 1.5 cups cream of some sort, could be:
+    - 1 cup water and 0.5 cup cashews, blended for ~3 minutes until totally smooth and no grain is left
+    - 0.5 cup water, 0.25 cup cashews blended, 1 cup coconut milk
+    - 2 cups coconut milk, possibly some cornstarch to thicken
+    - 2 cups oatly, some extra fat
+* 1-2 tbsp. salt
+* 1 tbsp. sugar
+* 2 tbsp. each turmeric and garam, 1 tbsp. chili powder
+* 3 cups of proteins of some sort
+* 1/3 cup butter or fat
+
+
 ## Process
 
 0. Soak soy curls; put on basmati rice
@@ -89,5 +106,6 @@ I would use a bit of finely chopped dino kale or frozen peas. I think this is a 
 3. Add protein, stir.
 4. Salt, season, and taste again.
 5. Serve over basmati rice with pickled onions, if you've got some.
+
 
 Enjoy!
