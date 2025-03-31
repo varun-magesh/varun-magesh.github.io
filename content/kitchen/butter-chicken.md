@@ -25,6 +25,7 @@ It's best served with basmati rice.
 ## Basic components
 
 This dish has a few basic components, each of which can be varied a little:
+
 * tomato
 * fat
 * cream
@@ -37,7 +38,7 @@ This dish has a few basic components, each of which can be varied a little:
 I'll address the options for each, then discuss how they come together
 
 ### Tomato
-There are some dishes (like [confit tomatoes](focaccia-confit-tomatoes-and-a-summer-salad.html) I feel strongly should be made with perfect tomatoes, and shouldn't even be attempted outside of the summer months.
+There are some dishes (like [confit tomatoes](focaccia-confit-tomatoes-and-a-summer-salad.html)) I feel strongly should be made with perfect tomatoes, and shouldn't even be attempted outside of the summer months.
 
 This isn't one of them. Approximately 1 16oz can of tomato per 3-4 servings (rough measures) will work. Pureed will save you some blender time, but diced, peeled, pureed, whatever -- just a can of tomato. Whole fresh tomatoes with the tops taken off will also work; they don't need to be deseeded or anything. You'll need a greater number though, since they must simmer for longer.
 
